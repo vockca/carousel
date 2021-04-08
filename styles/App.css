@@ -1,0 +1,126 @@
+*{
+    box-sizing: border-box;
+    margin: 3px;
+    padding: 0;
+    font-size: 18px;
+    color: black;
+}
+
+html {
+    font-size: 18px;
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: #437096;
+}
+
+select{
+    outline: none;
+}
+
+select,
+input[type="text"]{
+    padding: 0.65rem 0.5rem;
+    font-size: 1rem;
+    border: 3px solid grey;
+    background-color: #83accb;
+    color: black;
+    border-radius: 10px;
+}
+
+
+input[type="text"]::placeholder{
+    color: black;
+    opacity: 0.5;
+}
+
+select{
+    position: relative;
+    top:10px;
+    height: 60px;
+    margin: auto;
+}
+
+input[type="text"]{
+    width: 400px;
+    font: inherit;
+}
+
+input:focus{
+    outline: none;
+    border: 2px solid deepskyblue;
+}
+
+
+input:invalid,
+select:invalid,
+textarea:invalid {
+    border: 2px solid #ff7d87;
+    box-shadow: none;
+}
+
+input[type="submit"],
+input[type="button"],
+button {
+    width: 150px;
+    height: 50px;
+    padding: 0.5rem 1.25rem;
+    font-size: 1rem;
+    border-radius: 10px;
+    background-color: lightslategrey;
+    border: 3px solid #706f6f;
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    margin-bottom: 1rem;
+    appearance: none;
+    display: inline-block;
+    line-height: initial;
+    user-select: none;
+    outline: none;
+}
+
+
+@media (hover: hover) {
+    input[type="submit"]:hover,
+    input[type="reset"]:hover,
+    input[type="button"]:hover,
+    button:hover {
+        cursor: pointer;
+        background-color: grey;
+    }
+}
+
+.error {
+    font-size: 16px;
+    color: red;
+    margin-top: 0.25rem;
+    max-width: 400px;
+}
+
+::placeholder{
+    opacity: 0.5;
+}
+
+#app{
+    width: 100%;
+    display: inline-block;
+    text-align: center;
+
+}
+
+#uploadForm{
+    display: flex;
+}
+
+#urlButton{
+    position: relative;
+    top:10px;
+    margin: auto;
+}
+
+
+
+

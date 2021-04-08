@@ -1,0 +1,103 @@
+.carousel > li{
+
+}
+
+#galleryContainer{
+    justify-content: center;
+    height: 350px;
+    width: 100%;
+}
+
+#memory{
+    width: 440px;
+}
+
+#gallery{
+    position: relative;
+    display: inline-block;
+    overflow: hidden;
+    height: 350px;
+    width: 440px;
+    margin: 0;
+    z-index: 1;
+}
+
+ul{
+    display: flex;
+    position: relative;
+    margin: 0;
+    left: 0;
+    top: 0;
+    white-space: nowrap;
+    height: 300px;
+    width: 440px;
+    transition: left 0.45s;
+    z-index: 0;
+
+}
+
+video{
+    margin: 0;
+    height: 300px;
+    width: 400px;
+}
+
+li{
+    margin: 20px;
+    list-style-type: none;
+    height: 300px;
+    width: 400px;
+
+}
+
+img {
+    margin: 0;
+    height: 300px;
+    width: 400px;
+
+}
+
+.no-transition {
+    transition: none !important;
+}
+
+.untouchable {
+    position: unset !important;
+}
+
+#remoter {
+    display: flex;
+    justify-content: center;
+    flex-flow: nowrap;
+}
+
+#pictureSetterContainer{
+    width: 180px;
+}
+
+#pictureSetter {
+    display: inline-block;
+    width: 80px;
+    text-align: center;
+}
+
+#uploadForm {
+    width: 550px;
+    margin: 10px auto ;
+}
+
+#carouselRadio{
+    margin: 20px auto ;
+}
+
+#carouselRadio input:first-child,
+#carouselRadio input:last-child
+{
+    display: none;
+
+}
+
+
+
+
+
